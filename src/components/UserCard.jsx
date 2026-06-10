@@ -28,7 +28,7 @@ const UserCard = ({ user }) => {
         <div className="card-actions justify-center my-2">
           <button
             className="btn btn-secondary"
-            onClick={() => handleUserFeed("ignored", _id)}
+            onClick={() => handleUserFeed("ignore", _id)}
           >
             Ignore
           </button>
